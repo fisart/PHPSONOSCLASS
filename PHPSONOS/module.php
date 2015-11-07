@@ -1,5 +1,5 @@
 ﻿<?php
-class SonosPHPController
+class SonosPHP
 {
 	protected $Sonos_IP;
 	protected $_raw = [];
