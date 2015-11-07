@@ -7,14 +7,14 @@ class SonosPHP
         // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
             // Diese Zeile nicht löschen.
-            parent::Create();
+            parent::Create(1);
  
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
         public function ApplyChanges() {
             // Diese Zeile nicht löschen
-            parent::ApplyChanges();
+            parent::ApplyChanges(1);
         }
 
 
