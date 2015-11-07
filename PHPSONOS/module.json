@@ -1,0 +1,14 @@
+{
+        "id": "{2ba4824e-e5c0-4d0b-a63d-c37e766522b5}",
+	"name": "SonosPHP",
+	"type": 4,
+	"vendor": "AF",
+	"aliases": 
+	[
+		"SONOSPHP"
+	],	
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "SPHP"
+}
