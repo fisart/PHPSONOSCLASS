@@ -7,14 +7,15 @@ class SonosPHP
         // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
             // Diese Zeile nicht löschen.
-            parent::Create(1);
- 
+            parent::Create();
+  		$this->RegisterPropertyString("Benutzername", "AF"); 
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
         public function ApplyChanges() {
             // Diese Zeile nicht löschen
-            parent::ApplyChanges(1);
+            parent::ApplyChanges();
+ 	    $this->RequireParent("{6179ED6A-FC31-413C-BB8E-1204150CF376}");
         }
 
 
