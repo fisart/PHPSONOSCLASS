@@ -8,12 +8,6 @@ class SonosPHP
 			//Never delete this line!
 			parent::Create();
 		}
-		public function ApplyChanges()
-		{
-			//Never delete this line!
-			parent::ApplyChanges();
-                }
-
 
 	protected $Sonos_IP;
 	protected $_raw = [];
